@@ -18,9 +18,13 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace></RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject></StartupObject>
+    <StartupObject>Sub Main</StartupObject>
     <FileUpgradeFlags></FileUpgradeFlags>
     <UpgradeBackupLocation></UpgradeBackupLocation>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -63,25 +67,30 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v8.3">
-      <Name>DevExpress.Data.v8.3</Name>
-      <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.3.7\DevExpress.Data.v8.3.dll</HintPath>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Printing.v13.1.Core">
+      <Name>DevExpress.Printing.v13.1.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.Utils.v8.3">
-      <Name>DevExpress.Utils.v8.3</Name>
-      <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.3.7\DevExpress.Utils.v8.3.dll</HintPath>
+    <Reference Include="DevExpress.Data.v13.1">
+      <Name>DevExpress.Data.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v8.3">
-      <Name>DevExpress.XtraEditors.v8.3</Name>
-      <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.3.7\DevExpress.XtraEditors.v8.3.dll</HintPath>
+    <Reference Include="DevExpress.Utils.v13.1">
+      <Name>DevExpress.Utils.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v8.3">
-      <Name>DevExpress.XtraTreeList.v8.3</Name>
-      <Private>True</Private>
-      <HintPath>d:\Projects\Test_Examples\DLLs\8.3.7\DevExpress.XtraTreeList.v8.3.dll</HintPath>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Name>DevExpress.XtraEditors.v13.1</Name>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v13.1">
+      <Name>DevExpress.XtraTreeList.v13.1</Name>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
