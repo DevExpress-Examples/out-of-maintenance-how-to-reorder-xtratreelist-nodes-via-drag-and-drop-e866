@@ -92,7 +92,7 @@ Namespace DragDropReorder
             Dim p As Point = tl.PointToClient(MousePosition)
             targetNode = tl.CalcHitInfo(p).Node
 
-            If dragNode IsNot Nothing AndAlso targetNode IsNot Nothing AndAlso dragNode IsNot targetNode AndAlso dragNode.ParentNode = targetNode.ParentNode Then
+            If dragNode IsNot Nothing AndAlso targetNode IsNot Nothing AndAlso dragNode IsNot targetNode AndAlso dragNode.ParentNode Is targetNode.ParentNode Then
                 Return DragDropEffects.Move
             Else
                 Return DragDropEffects.None
