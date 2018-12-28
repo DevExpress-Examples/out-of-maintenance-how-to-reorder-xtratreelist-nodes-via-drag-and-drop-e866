@@ -10,7 +10,7 @@
 
 <br/>
 
-Note that **starting with version 15.2**, this functionality is accessible out of the box. To enable it, set the TreeList.OptionsDragAndDrop.DragNodesMode property to Single or Multiple.
+Note that **starting with version 15.2**, this functionality is accessible out of the box. To enable it, set the **TreeList.OptionsDragAndDrop.DragNodesMode** property to **Single** or **Multiple**.
 
 Use this approach for versions **older than 15.2** or if you need to provide your own drag-and-drop logic.
 
