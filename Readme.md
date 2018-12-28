@@ -6,7 +6,7 @@
 # How to reorder XtraTreeList nodes via drag-and-drop
 
 
-<p>This example demonstrates how to handle the DragOver and DragDrop events of the TreeList control to programmatically reorder nodes. The <a href="https://www.devexpress.com/Support/Center/p/A342">A342</a> article describes the approach used here.</p><p><strong>
+<p>This example demonstrates how to handle the DragOver and DragDrop events of the TreeList control to programmatically reorder nodes. The <a href="https://www.devexpress.com/Support/Center/p/A342">A342</a> article describes the approach used here.</p><p>
 
 <br/>
 
@@ -14,6 +14,7 @@ Note that **starting with version 15.2**, this functionality is accessible out o
 
 Use this approach for versions **older than 15.2** or if you need to provide your own drag-and-drop logic.
 
+<strong>
 See Also:</strong><br/>
 <a href="https://www.devexpress.com/Support/Center/p/E415">E415</a>
 
