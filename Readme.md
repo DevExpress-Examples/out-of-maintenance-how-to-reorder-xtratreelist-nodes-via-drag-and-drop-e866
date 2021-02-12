@@ -12,8 +12,11 @@ Note that **starting with version 15.2**, this functionality is accessible out o
 
 Use this approach for versions **older than 15.2** or if you need to provide your own drag-and-drop logic.
 
-<strong> See Also:</strong><br/>
-<a href="https://www.devexpress.com/Support/Center/p/E415">E415</a>
+<b>See also:</b>
+
+[How to implement drag and drop between two XtraTreeList controls](https://www.devexpress.com/Support/Center/p/E415)
+
+[DevExpress WinForms Cheat Sheet - Drag-and-Drop Within/Between Controls](https://go.devexpress.com/CheatSheets_WinForms_Examples_T949086.aspx)
 
 <strong>Search keywords:</strong><br/>
 TreeList, drag-drop in TreeList, TreeList drag-drop, TreeList drag nodes, TreeList drag and drop nodes, Reorder nodes</p>
