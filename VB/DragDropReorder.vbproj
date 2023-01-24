@@ -77,20 +77,20 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v15.1.Core">
-      <Name>DevExpress.Printing.v15.1.Core</Name>
+    <Reference Include="DevExpress.Printing.v13.1.Core">
+      <Name>DevExpress.Printing.v13.1.Core</Name>
     </Reference>
-    <Reference Include="DevExpress.Data.v15.1">
-      <Name>DevExpress.Data.v15.1</Name>
+    <Reference Include="DevExpress.Data.v13.1">
+      <Name>DevExpress.Data.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.Utils.v15.1">
-      <Name>DevExpress.Utils.v15.1</Name>
+    <Reference Include="DevExpress.Utils.v13.1">
+      <Name>DevExpress.Utils.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v15.1">
-      <Name>DevExpress.XtraEditors.v15.1</Name>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Name>DevExpress.XtraEditors.v13.1</Name>
     </Reference>
-    <Reference Include="DevExpress.XtraTreeList.v15.1">
-      <Name>DevExpress.XtraTreeList.v15.1</Name>
+    <Reference Include="DevExpress.XtraTreeList.v13.1">
+      <Name>DevExpress.XtraTreeList.v13.1</Name>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
